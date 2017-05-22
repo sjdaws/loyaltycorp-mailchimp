@@ -1,0 +1,29 @@
+{
+  "name": "sjdaws/loyaltycorp-mailchimp",
+  "description": "A library for interacting with Mailchimp used as part of loyaltycorp-test",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Scott Dawson",
+      "email": "scott@sjdaws.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "^4.0",
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sjdaws\\LoyaltyCorpMailchimp\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sjdaws\\Tests\\LoyaltyCorpMailchimp\\": "tests/"
+    }
+  }
+}
